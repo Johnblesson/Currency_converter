@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--This is the container element-->
+    <div class="container">
+        <h2 class="heading">Currency Converter</h2>
+        <div class="rate">
+            <div class="rate1"></div>
+            <div class="rate2"></div>
+        </div>
+        <!--The main body of the Converter-->
+        <div class="main">
+            <div class="initial">
+                <div class="options"><select></select></div>
+                <div class="input"><input type="number"></div>
+            </div>
+            <span class="material icons swap" style="font-size: 24px;">
+             swap_horiz   
+            </span>
+            <div class="target">
+                <div class="options"><select></select></div>
+                <div class="input"><input disabled type="number"></div>
+            </div>
+        </div>
+        <buttom class="result"> Result </buttom>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
